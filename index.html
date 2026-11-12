@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090812">
+<title>Happy Birthday, Surya 🫂</title>
+<style>
+:root{--bg:#07070d;--bg2:#0e0d19;--card:#12111e;--card2:#171527;--text:#f7f3ff;--muted:#aaa4bb;--gold:#e9c77b;--pink:#e77eb7;--violet:#9d8cff;--line:rgba(255,255,255,.1);--shadow:0 25px 90px rgba(0,0,0,.45)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);background:radial-gradient(circle at 15% 10%,rgba(157,140,255,.12),transparent 28%),radial-gradient(circle at 85% 25%,rgba(231,126,183,.1),transparent 30%),var(--bg);overflow-x:hidden}a{text-decoration:none;color:inherit}
+.nav{position:fixed;z-index:30;top:14px;left:50%;transform:translateX(-50%);width:min(94%,1120px);display:flex;align-items:center;justify-content:space-between;padding:12px 17px;border:1px solid var(--line);border-radius:999px;background:rgba(8,8,15,.76);backdrop-filter:blur(20px);box-shadow:0 10px 40px rgba(0,0,0,.28)}.brand{font-weight:950;color:var(--gold)}.links{display:flex;gap:18px;font-size:12px;color:var(--muted)}.links a:hover{color:var(--gold)}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:120px 20px 80px;position:relative;overflow:hidden;background:linear-gradient(180deg,#090812 0%,#0b0a14 70%,#07070d 100%)}.stars{position:absolute;inset:0;background-image:radial-gradient(#fff 1px,transparent 1px),radial-gradient(#e9c77b 1px,transparent 1px);background-size:90px 90px,150px 150px;opacity:.16}.orb{position:absolute;border-radius:50%;filter:blur(5px);opacity:.35}.o1{width:320px;height:320px;background:#725eea;left:-100px;top:20%}.o2{width:280px;height:280px;background:#d45f9e;right:-90px;top:48%}.hero-inner{position:relative;max-width:900px}.eyebrow{font-size:11px;font-weight:900;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}.hello{font-family:'Trebuchet MS','Segoe UI',Arial,sans-serif;font-size:clamp(2.8rem,8vw,7rem);font-weight:900;letter-spacing:-.045em;line-height:.92;margin:20px 0;background:linear-gradient(100deg,#f7e7a8,#e77eb7,#9d8cff);color:transparent;background-clip:text;-webkit-background-clip:text}.name{display:block}.hero p{max-width:720px;margin:25px auto;color:var(--muted);font-size:clamp(1rem,2vw,1.2rem);line-height:1.85}.cta{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.btn{padding:13px 21px;border-radius:999px;border:1px solid var(--line);background:#151321;font-weight:850;color:#ddd7e9}.btn.primary{background:linear-gradient(100deg,#b59a50,#d76ca7,#8c7ce5);color:#fff;border:0;box-shadow:0 14px 45px rgba(157,140,255,.22)}
+section{padding:110px 20px;max-width:1180px;margin:auto}.head{text-align:center;max-width:760px;margin:0 auto 45px}.tag{color:var(--gold);font-size:11px;font-weight:1000;letter-spacing:.24em;text-transform:uppercase}.head h2{font-family:'Palatino Linotype',Georgia,serif;font-size:clamp(2.2rem,5vw,4.1rem);margin:12px 0;color:#fff}.head p{color:var(--muted);line-height:1.8}.card{background:linear-gradient(145deg,rgba(22,20,36,.95),rgba(13,12,23,.95));border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow)}
+.poem{padding:48px;text-align:center;position:relative;overflow:hidden}.poem p{font-family:Georgia,serif;font-size:clamp(1.2rem,2.5vw,1.7rem);line-height:1.95;margin:0;color:#eee9f5}.signature{margin-top:26px;color:var(--pink);font-weight:850}
+.chapters{display:grid;gap:22px}.chapter{display:block;padding:0;overflow:hidden;background:linear-gradient(145deg,#12111e,#0d0c17);border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow)}.chapter-content{padding:30px;display:flex;flex-direction:column;justify-content:center}.chapter h3{font-family:'Palatino Linotype',Georgia,serif;font-size:1.85rem;margin:7px 0 12px}.chapter p{margin:0;color:var(--muted);line-height:1.9;font-size:1rem}.story-kicker{font-size:11px;color:var(--gold);font-weight:950;letter-spacing:.2em;text-transform:uppercase}
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:15px}.photo{position:relative;min-height:300px;border-radius:25px;overflow:hidden;background:#11101c;border:1px solid var(--line);box-shadow:var(--shadow)}.photo:nth-child(1){grid-column:span 7}.photo:nth-child(2){grid-column:span 5}.photo:nth-child(3){grid-column:span 5}.photo:nth-child(4){grid-column:span 7}.photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.82) contrast(1.08)}.caption{position:absolute;left:0;right:0;bottom:0;padding:50px 18px 18px;background:linear-gradient(transparent,rgba(0,0,0,.88));color:#fff}.caption strong{display:block;font-size:1.15rem}.caption small{color:#c7bfd2}.credit{font-size:11px;color:#837c92;margin-top:8px}.credit a{color:#c7a967;text-decoration:underline}
+.video-wrap{max-width:900px;margin:auto}.video-card{padding:14px;background:linear-gradient(145deg,#12111e,#0d0c17);border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow)}.video-card video{width:100%;display:block;aspect-ratio:16/9;object-fit:contain;background:#000;border-radius:20px}
+.letter{max-width:800px;margin:auto;padding:48px;background:linear-gradient(145deg,#14121f,#0d0c16);border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow)}.letter:before{content:"💌";font-size:42px;display:block;text-align:center;margin-bottom:15px}.letter h3{text-align:center;font-family:Georgia,serif;font-size:2rem;margin:0 0 20px}.letter p{line-height:2;color:#c9c2d2;white-space:pre-line}.signoff{color:var(--pink);font-family:Georgia,serif;font-size:1.3rem;margin-top:25px}
+.cakebox{text-align:center;padding:45px;background:radial-gradient(circle at center,rgba(233,199,123,.12),transparent 55%),#10101a;border-radius:30px;border:1px solid var(--line)}.cake{font-size:8rem;cursor:pointer;display:inline-block;transition:.3s;filter:drop-shadow(0 18px 25px rgba(233,199,123,.16))}.cake:hover{transform:scale(1.07) rotate(-2deg)}.cake small{display:block;font-size:14px;color:var(--muted)}
+.giftbox{text-align:center;padding:50px}.gift{font-size:6rem;cursor:pointer;display:inline-block;animation:bounce 1.6s infinite}.final{display:none;margin:22px auto 0;max-width:720px;font-family:Georgia,serif;font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.55;color:#f0d88f}.final.show{display:block;animation:pop .7s}.tiny{color:var(--muted);font-size:12px}footer{text-align:center;padding:50px 20px;color:#777084;background:#05050a;border-top:1px solid var(--line)}#confetti{position:fixed;inset:0;pointer-events:none;z-index:100}.piece{position:absolute;top:45%;animation:fall 1.8s ease-out forwards}
+@keyframes bounce{50%{transform:translateY(-12px)}}@keyframes pop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}@keyframes fall{to{transform:translate(var(--x),var(--y)) rotate(720deg);opacity:0}}
+@media(max-width:760px){.links{display:none}.hero{padding-top:125px}.chapter{grid-template-columns:1fr}.chapter-content{padding:25px}.photo:nth-child(n){grid-column:span 12;min-height:260px}.poem,.letter{padding:28px 22px}section{padding:85px 16px}}
+
+/* --- birthday polish --- */
+.open-letter{display:block;margin:0 auto 22px;padding:14px 24px;border:1px solid rgba(233,199,123,.35);border-radius:999px;background:linear-gradient(100deg,#241d32,#171321);color:#f3dfaa;font-weight:900;letter-spacing:.02em;cursor:pointer;box-shadow:0 12px 40px rgba(0,0,0,.35);transition:.25s}
+.open-letter:hover{transform:translateY(-2px);border-color:rgba(233,199,123,.7)}
+.letter-wrap{max-width:800px;margin:auto}.letter{display:none}.letter.open{display:block;animation:pop .7s}
+.candle{font-size:8rem;cursor:pointer;display:inline-block;filter:drop-shadow(0 0 22px rgba(255,198,82,.45));transition:.3s;animation:flicker 1.8s infinite}.candle:hover{transform:scale(1.07)}.candle.lit{filter:drop-shadow(0 0 38px rgba(255,198,82,.8))}
+footer span{color:#d9bb72;font-family:Georgia,serif;font-size:1.05rem}
+@keyframes flicker{0%,100%{transform:translateY(0) rotate(-1deg);opacity:.94}50%{transform:translateY(-3px) rotate(1deg);opacity:1}}
+</style>
+</head>
+<body>
+<nav class="nav"><a class="brand" href="#top">✦ For Surya</a><div class="links"><a href="#poem">A poem</a><a href="#story">Story</a><a href="#gallery">Memories</a><a href="#video">Video</a><a href="#letter">Letter</a><a href="#gift">Gift</a></div></nav>
+<main id="top">
+<header class="hero"><div class="stars"></div><div class="orb o1"></div><div class="orb o2"></div><div class="hero-inner"><div class="eyebrow">To My Favourite One, Always 💖</div><div class="hello">Happy Birthday<span class="name">Surya Prakash </span></div><p>A little journey made of smiles, conversations, memories and one simple wish: <b>Always keep that happy face 😊✨
+And remember, I’m always here for you 🤍</b></p><div class="cta"><a class="btn primary" href="#poem">Begin the surprise ✦</a><a class="btn" href="#story">Our story →</a></div></div></header>
+
+<section id="poem"><div class="head"><div class="tag">A little piece of my heart</div><h2>A Little Wish for My Favourite One ✨💫</h2><p>For the person I hope keeps smiling through every chapter ahead.</p></div><div class="card poem"><p>May your mornings begin with a smile,<br>May your dreams take you every mile.<br>May every little worry fade away,<br>And happiness find you every day.<br><br>May success walk beside you wherever you go,<br>May your confidence beautifully grow.<br>May every hard lesson make you bright,<br>And every dark road lead you toward light.<br><br>Keep that beautiful smile forever in view,<br>Because the world is happier with a <b>you</b>.<br>May every new chapter feel honest and true,<br>And may life keep bringing good things to you. 💖</p><div class="signature">Happy Birthday, Surya — keep smiling always. ✨</div></div></section>
+
+<section id="story"><div class="head"><div class="tag">Where it all quietly began</div><h2>Where an Unexpected Hello Became Something Special 🌙📖</h2><p>Some friendships do not arrive with a grand introduction. Sometimes they begin with one ordinary question.</p></div><div class="chapters">
+<article class="chapter"><div class="chapter-content"><div class="story-kicker">The first hello</div><h3>“Just another classmate… at first.” 🌱</h3><p>At the beginning, you were simply someone from the same class — a familiar face, but still a stranger. Then came a small academic doubt, a quick conversation, and that tiny moment when two people who barely knew each other started noticing each other.</p></div></article>
+<article class="chapter"><div class="chapter-content"><div class="story-kicker">A little more every day</div><h3>“Somehow, our conversations kept growing.” 📚</h3><p>Study topics, assignments, exams, projects and all those little academic doubts became reasons to talk. Soon, the conversations were no longer only about college. A few words became longer talks, and a classmate slowly became someone familiar.</p></div></article>
+<article class="chapter"><div class="chapter-content"><div class="story-kicker">From familiar to friends</div><h3>“Then talking started feeling easy.” ☕</h3><p>There was no need for a reason anymore. Random jokes, small updates, teasing, helping each other, sharing thoughts and simply being there — somewhere along the way, the awkwardness disappeared. We were not just classmates anymore. We had become friends.</p></div></article>
+<article class="chapter"><div class="chapter-content"><div class="story-kicker">Where we are now</div><h3>“A stranger became someone I never want to lose.” ✨</h3><p>That is the part I value most. What started as an ordinary connection slowly became a friendship filled with memories, comfort and genuine care. Now you are not just someone I met in a classroom — you are one of those people whose happiness, success and smile truly matter to me.</p></div></article>
+</div></div></section>
+
+<section id="gallery"><div class="head"><div class="tag">Little moments, little magic</div><h2>No Photos Together, Just a Little Dedication 🤍</h2><p>No pictures of us together, but these are for you — with a little piece of my heart. 🤍</p></div><div class="gallery">
+<div class="photo"><img src="assets/images/1.png" alt="Magical friendship artwork"><div class="caption"><strong>The first spark</strong><small>Every beautiful story has an ordinary beginning.</small></div></div>
+<div class="photo"><img src="assets/images/2.png" alt="Magical friendship artwork"><div class="caption"><strong>Curiosity brought us closer</strong><small>Questions turned into conversations.</small></div></div>
+<div class="photo"><img src="assets/images/3.png" alt="Magical castle artwork"><div class="caption"><strong>Somewhere between the moments</strong><small>Friendship started feeling like home.</small></div></div>
+<div class="photo"><img src="assets/images/4.png" alt="Friendship artwork"><div class="caption"><strong>And then it became unforgettable</strong><small>Some people simply become part of your story.</small></div></div>
+</div></section>
+
+<section id="video"><div class="head"><div class="tag">A memory in motion</div><h2>A Little Piece of Our Journey, Just for You 🎬🤍</h2></div><div class="video-wrap"><div class="video-card"><video id="birthdayVideo" controls autoplay muted playsinline preload="auto"><source src="assets/videos/doremon.mp4" type="video/mp4">Your browser does not support the video tag.</video></div></div></section>
+
+<section id="letter"><div class="head"><div class="tag">Something I want you to keep</div><h2>A Letter I Wanted You to Keep 💌</h2></div><div class="letter-wrap"><button class="open-letter" id="openLetter">💌 Open your letter</button><div class="letter" id="letterCard"><h3>Dear Surya Prakash,</h3><p>Happy Birthday to one of the most special person in my life. ❤️
+
+I may not say it every day, but I truly hope you know how much your presence means to me. Thank you for every laugh, every conversation, every random moment and every memory that slowly became a part of our story.
+
+On your birthday, I don't just wish you a happy day. I wish you a happy life — a life filled with confidence, peace, good people, exciting opportunities and the courage to chase every dream that matters to you.
+
+I hope you always keep that happiee face. Even when life becomes difficult, I hope you find a reason to smile again. I hope success keeps finding its way to you, and whenever you achieve something, I hope you look back and feel proud of how far you've come.
+
+And one more thing: never forget that you deserve good things. You deserve happiness. You deserve success. You deserve moments that make you say, “Yes, life is beautiful.”
+
+So here's to another year of your life, another chapter of our friendship, and many more memories waiting to happen.
+
+<b>Always see you with a happiee face, always wishing you success, and always cheering for you. 🌟</b></p><div class="signoff">With lots of love & friendship,<br>Someone who will always be in your corner 💗</div></div></div></section>
+
+<section id="cake"><div class="head"><div class="tag">One quiet wish</div><h2>Close your eyes. Make a wish. 🕯️</h2><p>One candle, one wish, and a whole future waiting for you.</p></div><div class="card cakebox"><div class="candle" id="candle" role="button" tabindex="0">🕯️</div><small id="wishText">Tap the candle and make your wish ✨</small></div></section>
+
+<section id="gift"><div class="head"><div class="tag">And the journey continues</div><h2>One last little gift 🎁</h2><p>Because the best stories are never really finished.</p></div><div class="card giftbox"><div class="gift" id="giftIcon" tabindex="0">🎁</div><p class="tiny"></p><div class="final" id="final">May you always have a <b>happiee face</b>, a peaceful heart, brave dreams and a life full of <b>success</b>. 💖<br><br>Happy Birthday, Surya Prakash!<br>Keep smiling. Keep growing. Keep shining. ✨<br><br>And remember — there are still so many beautiful chapters left to write. 📖</div></div></section>
+</main><footer>From a simple hello to a lifetime of memories • with love, Vishy ✨</footer><div id="confetti"></div>
+<script>
+function confetti(){const root=document.getElementById('confetti');root.innerHTML='';const emojis=['💖','💛','💜','✨','🌸','🎉','⭐'];for(let i=0;i<70;i++){const p=document.createElement('span');p.className='piece';p.textContent=emojis[i%emojis.length];p.style.left=(35+Math.random()*30)+'%';p.style.setProperty('--x',((Math.random()-.5)*900)+'px');p.style.setProperty('--y',(250+Math.random()*650)+'px');p.style.animationDelay=(Math.random()*.15)+'s';root.appendChild(p)}setTimeout(()=>root.innerHTML='',2400)}
+
+const candle=document.getElementById('candle');
+function makeWish(){candle.classList.add('lit');document.getElementById('wishText').textContent='Wish sent into the universe ✨ May your smile stay bright and your dreams find their way to you.';confetti()}
+candle.onclick=makeWish;
+candle.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();makeWish()}};
+
+const openLetter=document.getElementById('openLetter'), letterCard=document.getElementById('letterCard');
+openLetter.onclick=()=>{letterCard.classList.add('open');openLetter.textContent='💖 Letter opened';openLetter.disabled=true;openLetter.style.opacity='.65';letterCard.scrollIntoView({behavior:'smooth',block:'center'})};
+
+const gift=document.getElementById('giftIcon'),final=document.getElementById('final');
+function openGift(){final.classList.toggle('show');gift.textContent=final.classList.contains('show')?'💝':'🎁';if(final.classList.contains('show'))confetti()}
+gift.onclick=openGift;gift.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openGift()}};
+
+const video=document.getElementById('birthdayVideo');
+video.muted=true;
+const tryPlay=()=>{video.muted=true; const p=video.play(); if(p && p.catch){p.catch(()=>{});}};
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){ tryPlay(); }
+    else if(!video.paused){ video.pause(); }
+  });
+},{threshold:0.15});
+observer.observe(video);
+video.addEventListener('loadeddata',tryPlay);
+video.addEventListener('canplay',tryPlay);
+</script></body></html>
